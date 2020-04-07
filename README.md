@@ -1,5 +1,9 @@
 # Observables
 
+https://rxjs.dev/
+
+https://www.learnrxjs.io/
+
 ## Intro
 
 [Observable](src/observable.ts)
