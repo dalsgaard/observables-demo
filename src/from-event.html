@@ -1,0 +1,11 @@
+<body>
+  <input type="text" />
+  <button>Button</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.5/rxjs.umd.min.js"></script>
+  <script>
+    const input = document.getElementsByTagName('input');
+    const btn = document.getElementsByTagName('button');
+    rxjs.fromEvent(input, 'input').subscribe(console.log);
+    rxjs.fromEvent(btn, 'click').subscribe(console.log);
+  </script>
+</body>
